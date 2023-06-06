@@ -9,7 +9,6 @@ import pyautogui as pg
 capture = cv.VideoCapture(0)
 mp_drawing = mp.solutions.drawing_utils
 mp_pose = mp.solutions.pose
-flex = "#I am geniusssssssssssssssssssssssssssssssssssssssssssssssssssss"
 
 Tpose = False
 left_dab = False
@@ -273,7 +272,7 @@ with mp_pose.Pose(min_detection_confidence=0.7, min_tracking_confidence=0.7) as 
                 and int(right_collar_angle) < 181
             ):
                 if right_dab == False:
-                    pg.typewrite(flex)
+                    os.system("discord")
                     right_dab = True
                 if right_dab == True:
                     pass
