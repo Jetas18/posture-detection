@@ -3,7 +3,7 @@ import mediapipe as mp
 import os
 import numpy as np
 import webbrowser as wb
-import pyautogui as pg
+import pyautogui as pg 
 
 
 capture = cv.VideoCapture(0)
